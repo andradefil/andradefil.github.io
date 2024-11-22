@@ -1,9 +1,33 @@
 ---
 layout: post
-title:  "Creating a persistent Heap in Clojure"
+title:  "Creating a simple database in Clojure"
 date:   2024-11-21 20:41:17 -0300
-categories: clojure
+categories: clojure, databases
 ---
+
+I have been working for a curiosity I had about studying more about databases system
+and during studying about heap data structures and how it could be useful in file organizations
+I though that could I use that for create a database? I then realized that this is one of primitive
+structures for a database creation.
+
+So from this idea of developing a database I found some relevant articles and found an idea of creating
+a database some interesting challenges that was sharping my mind along the process.
+
+Have to thanks ideas I got some study from great resources that helped and keep me motivated and empowered
+to do this job.
+
+Great Resources:
+- https://www.cs.uct.ac.za/mit_notes/database/htmls/chp11.html
+
+
+This project is aimed to be part of my own study and development and it will be documented in this page
+which I will write the details of the development of this project along the weeks. I will not make this
+as jornal, so the reader will not follow cronological facts as I write things is different order when they happened,
+because I am trying to keep a logical narrative of the facts after I understand them.
+
+The name of the project: This project will be called sweet db because it should start dumb and I want to
+make improvements on it as we face challenges to put new features so I want to be customized like a cake,
+a sweet cake, or better a sweet db! 
 
 Goal: Develop an application that simulates the storage of data
 blocks in a hierarchical storage system using a binary heap.
